@@ -110,5 +110,5 @@ Rscript hostel_food_satisfaction_analysis.R
 
 ---
 
-## 📄 License
+## License
 This project is open-source under the [MIT License](LICENSE).
