@@ -21,7 +21,7 @@ Hostel food quality and dining management directly govern students' physical hea
 
 - **Institution:** Dr. B. R. Ambedkar National Institute of Technology, Jalandhar (NITJ)
 - **Department:** Department of Computer Science & Engineering
-- **Course:** Data Mining & Analytics Laboratory (`CSPC-323`)
+- **Course:** Data Mining & Analytics Laboratory (`CSDC0337`)
 - **Section / Group:** 5A (G3)
 - **Authors:**
   - **Jaydev Kurmi** (Roll No: `24103067`)
