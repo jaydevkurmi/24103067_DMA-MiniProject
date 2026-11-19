@@ -1,14 +1,13 @@
 # Hostel Food Satisfaction Analysis using Data Mining
 
 [![R](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Institution](https://img.shields.io/badge/NIT%20Jalandhar-CSE%20Department-red.svg)](https://www.nitj.ac.in/)
 
 An empirical Data Mining and Analytics mini-project investigating factors that influence students' overall satisfaction with residential hostel mess food. Based on structured survey responses ($N = 85$) collected across academic batches at **Dr. B. R. Ambedkar National Institute of Technology, Jalandhar**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Hostel food quality and dining management directly govern students' physical health, daily routine, academic productivity, and personal monthly expenditures. This study employs descriptive statistics, correlation analysis, multiple regression modeling, and unsupervised machine learning (K-Means Clustering) to discover:
 - Key sensory and service dimensions driving overall student dining satisfaction.
@@ -18,7 +17,7 @@ Hostel food quality and dining management directly govern students' physical hea
 
 ---
 
-## 👥 Student & Course Details
+## Student & Course Details
 
 - **Institution:** Dr. B. R. Ambedkar National Institute of Technology, Jalandhar (NITJ)
 - **Department:** Department of Computer Science & Engineering
@@ -31,16 +30,12 @@ Hostel food quality and dining management directly govern students' physical hea
 
 ---
 
-## 📂 Repository Structure & Deliverables
+## Repository Structure & Deliverables
 
 ```text
 ├── Hostel Food Satisfaction Survey (Responses).csv  # Primary empirical survey data with realistic timestamps
-├── hostel_food_satisfaction.csv                    # Cleaned analytical dataset (N = 85)
 ├── hostel_food_satisfaction_analysis.R             # End-to-end R script (EDA, Regression, Clustering, Plots)
-├── ppt 2.pptx                                      # 10-slide academic presentation with NITJ title & color charts
-├── Hostel_Food_Satisfaction_Report_NITJ.docx       # Formal academic project documentation (NITJ front page)
 ├── run_in_r.bat                                    # 1-click execution script for Windows
-├── nitj_logo.png                                   # Official NIT Jalandhar emblem
 └── plots/                                          # Exported publication-ready figures
     ├── 1_satisfaction_dist.png                     # Overall satisfaction rating distribution (Scale 1-5)
     ├── 2_correlation_heatmap.png                   # Pearson correlation heatmap
@@ -51,7 +46,7 @@ Hostel food quality and dining management directly govern students' physical hea
 
 ---
 
-## 📊 Summary of Key Findings
+## Summary of Key Findings
 
 1. **Satisfaction Distribution (Mean = $2.98 \pm 1.39$ out of $5.0$)**:
    - **Dissatisfied (Ratings 1 & 2):** $38.8\%$ (Acute dining concerns).
@@ -59,12 +54,12 @@ Hostel food quality and dining management directly govern students' physical hea
    - **Satisfied (Ratings 4 & 5):** $42.4\%$ (Dietary alignment with current catering).
 
 2. **Attribute Performance Ranking**:
-   - 🥇 **Hygiene & Cleanliness ($3.33 / 5.0$):** Highest scoring attribute.
-   - 🥈 **Portion Size & Availability ($3.24 / 5.0$):** Good quantity satisfaction.
-   - 🥉 **Quality & Freshness ($3.21 / 5.0$):** Solid baseline with occasional peak demand drops.
-   - 4️⃣ **Menu Variety ($3.09 / 5.0$):** Weekly repetition causes monotony.
-   - 5️⃣ **Taste of Food ($3.00 / 5.0$):** Exact neutral midpoint; seasoning inconsistency cited.
-   - ⚠️ **Staff Service & Behaviour ($2.99 / 5.0$):** Lowest rated; counter service friction flagged.
+   - **Hygiene & Cleanliness ($3.33 / 5.0$):** Highest scoring attribute.
+   - **Portion Size & Availability ($3.24 / 5.0$):** Good quantity satisfaction.
+   - **Quality & Freshness ($3.21 / 5.0$):** Solid baseline with occasional peak demand drops.
+   - **Menu Variety ($3.09 / 5.0$):** Weekly repetition causes monotony.
+   - **Taste of Food ($3.00 / 5.0$):** Exact neutral midpoint; seasoning inconsistency cited.
+   - **Staff Service & Behaviour ($2.99 / 5.0$):** Lowest rated; counter service friction flagged.
 
 3. **Key Statistical Drivers & Regression Model**:
    - **Portion Size & Availability ($r = +0.24, p = 0.021$):** Strongest positive predictor. Ensuring adequate hot food replenishment directly drives student satisfaction.
@@ -83,7 +78,7 @@ Hostel food quality and dining management directly govern students' physical hea
 
 ---
 
-## 🚀 How to Run the Analysis
+## How to Run the Analysis
 
 ### Option A: 1-Click Execution (Windows)
 Double click [`run_in_r.bat`](run_in_r.bat) to automatically execute the R pipeline and refresh the `plots/` directory.
@@ -106,7 +101,7 @@ Rscript hostel_food_satisfaction_analysis.R
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **R Base Graphics & Statistical Engine** (No external dependencies required)
 - **CRISP-DM Framework** for structured data mining
